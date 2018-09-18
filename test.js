@@ -58,13 +58,13 @@ console.time("quick3wayByBentleyMcIlroy")
 quickSort.QuickSort(a8,"quick3wayByBentleyMcIlroy",1,"power")
 console.timeEnd("quick3wayByBentleyMcIlroy")
 
-/*console.log("result1",a1)
+console.log("result1",a1)
 console.log("result2",a2)
 console.log("result3",a3)
 console.log("result4",a4)
 console.log("result5",a5)
 console.log("result6",a6)
 console.log("result7",a7)
-console.log("result8",a8)*/
+console.log("result8",a8)
 
 
