@@ -62,8 +62,5 @@ console.timeEnd("quick3wayByBentleyMcIlroy")
 // console.log("result2",a2)
 // console.log("result3",a3)
 // console.log("result4",a4)
-// console.log("result5",a5)
-// console.log("result6",a6)
-// console.log("result7",a7)
 
 
