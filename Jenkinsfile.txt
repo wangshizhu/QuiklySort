@@ -3,6 +3,9 @@ pipeline {
         label 'production'
     }
     stages {
+        stage('checkout'){
+            checkout scm
+        }
         stage('Build') {
             steps {
                 echo 'Building..'
