@@ -4,9 +4,6 @@ pipeline {
     }
 
     stages {
-        stage('checkout'){
-            checkout scm
-        }
         stage('Build') {
             steps {
                 echo 'Building..'
