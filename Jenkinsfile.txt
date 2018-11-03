@@ -1,7 +1,9 @@
 Jenkinsfile (Declarative Pipeline)
 pipeline {
-    agent production
-    
+    agent {
+        label 'Production'
+    }
+
     stages {
         stage('checkout'){
             checkout scm
